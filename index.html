@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+</head>
+
+<body>
+    <div id="main" >
+        <marquee behavior="alternate" direction="back-front" class="div">
+            <h1>Welcome to Jquery</h1>
+        </marquee>
+
+        <h2>Whoever came across this page, please fill up this information!</h2>
+        Name: <input type="text" name="fullname"><br> <br> Email Id: <input type="text" name="email"><br> <br> Mobile Number:<input type="number" name="phnumber"><br>
+
+        <br><br>
+        <hr>
+
+        <!-- creating a button to hide and show the p tag -->
+        <div id="div" class="div">
+            <p>Bhutan officially the Kingdom of Bhutan, is a landlocked country in South Asia. It is situated in the Eastern Himalayas, between China in the north and India in the South. Bhutan is famous for its colorful, vibrant festivals. Bhutan is well known for holding some of the most vibrant and colorful festivals in the world. In fact, many travelers time their trip to Bhutan to coincide with the famous Paro and Thimphu Festivals.
+            </p>
+            <br> <br>
+            <button id="hide">Click me to hide</button>
+            <button id="show">Click me to show</button>
+            <br><br>
+        </div>
+        <br><br>
+        <hr>
+
+        <!-- inserted p, button and images to show a fadeIn effects -->
+        <div id="fadeIn" class="div">
+            <p>FadeIn image with different parameters</p>
+            <button>Click me to FadeIn the image</button>
+            <br><br>
+            <div id="div1">
+                <img src="bhutan-2.jpg" alt="Photo">
+            </div>
+            <div id="div2">
+                <img src="Kings-of-Bhutan.jpg" alt="Photo">
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <div id="flip">Click to slide up the panel</div>
+        <div id="panel">Hello World!</div>
+
+        <br>
+        <br>
+        <hr>
+        <!-- Creating a Animation -->
+        <div id="ani" class="div">
+            <br> 
+            <button>Start an Animation</button>
+            <br>
+            <p id="start">By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+    
+            <div id="animation">
+                <img src="wp6646043.webp" alt="Photo">
+            </div>
+            <br><br><br> <br>
+        </div>
+
+
+
+        <br> <br> <br> <br> <br><br><br><br>
+        <hr>
+        <br><br>
+        <div class="div">
+            <br><br>
+            <button id="Ani">Start an Animation</button>
+
+            <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+            <div id="image">
+                <img src="bhutan-2.jpg" alt="Photo">
+            </div>
+        </div>
+        <br> <br> <br>
+        <hr>
+        <br><br>
+        <div class="div">
+            <p id="events">Try to click or move the mouse over me please! This show the various events like mouseenter, mouseleave and mouseclick. When we enter, leave and click the paragraph tag the functions changes the color.</p>
+        </div>
+        <br><br> <br>
+        <hr>
+
+        <div id="stopsliding" class="div">
+            <br><br>
+            <!-- Stop Sliding -->
+            <button id="stop">Stop Sliding</button>
+            <br><br>
+            <div id="flip1">Click to slide down panel</div>
+            <div id="panel1"><img src="bts_main_110.jpg" alt="Photo"></div>
+
+        </div>
+
+        <br><br>
+        <hr>
+
+        <!-- creating a button to call back the content -->
+        <div class="div">
+            <br><br>
+            <button id="Hide">Hide</button>
+            <p id="callbackP">This paragraph it says how its shows when the content is hidden or callback. Click to this paragraph to hide or call back the content.</p>
+        </div>
+        <br><br>
+        <hr>
+        <!-- Chaining effect in HTMl -->
+        <p id="p2">Jquery seems fun to learn and needs more hardwork!!</p>
+        <button id="Chaining">Click Me</button>
+        <br> <br>
+        <hr>
+
+
+        <!-- Jquery HTML Get content and attributes -->
+        <div class="div">
+            <p id="test"> This is some <b>bold</b> and a <strong>strong</strong> text in paragraph. </p>
+
+            <button id="btn1">Show text</button>
+            <button id="btn2">Show HTML</button>
+            <br><br>
+        </div>
+        <br><br>
+        <hr>
+        <!-- Jquery Set content and attributes -->
+<div class="div">
+    <p id="test1">This is paragraph</p>
+    <p id="test2">This is another paragraph</p>
+    <p>Input field: <input type="text" id="test3" value="Mickey Mouse"> </p>
+
+    <button id="btn3">Set Text</button>
+    <button id="btn4">Set HTML</button>
+    <button id="btn5">Set Value</button>
+    <br><br>
+</div>
+<br><br><hr>
+<!-- appending a text -->
+<div id="append" class="div">
+    <p>This is the paragraph.</p>
+    <button onclick="appendText()">Append text</button>
+    <br><br>
+</div>
+<br><br><hr>
+<!-- inserting a text before and after the image -->
+<div class="div">
+    <img src="badminton-1428046__480.jpg" alt="photo" width="100" height="140">
+    <br><br>
+    <button id="but1">Insert Before</button>
+    <nbsp></nbsp> <nbsp></nbsp>
+    <button id="but2">Insert After</button>
+    <br><br>
+</div>
+<br><br><hr>
+<!-- removing the div element -->
+<div id="remove" class="div">
+    This is some text in the div.
+<p>This is a paragraph in the div.</p>
+<p>This is another paragraph in the div.</p>
+</div>
+<br><br>
+<button id="rm">Remove div element</button>
+
+<br><br> <hr>
+
+<!-- Adding a class -->
+<div class="div">
+    <h1>This is the heading 1.</h1>
+    <p>This is a paragraph.</p>
+    <div id="addclass">This is a word created in div.</div>
+    <br><br>
+    <button id="addcls">Add class to Elements</button>
+    <br><br>
+</div>
+<br><br><hr>
+<!-- setting a multiple css properties -->
+<div class="div">
+
+    <p id="p">This is the paragraph that shows the multiple CSS properties.</p>
+
+    <p id="p1">paragraph with goldenrod color.</p>
+    <p id="p2">paragraph with salmon color.</p>
+    <p id="p3">paragraph with skyblue color.</p>
+    <button id="btnp">Set a multiple properties for p</button>
+    <br><br>
+</div>
+
+<br><br><hr>
+<div class="div">
+<div id="divv" ></div>
+<br><br>
+ <div>
+<button id="displaybtn">Display dimensions of div</button>
+<p>innerWidth() - returns the width of an element (includes padding).</p>
+<p>innerHeight() - returns the height of an element (includes padding).</p>
+
+ </div>
+
+</div>
+
+
+    </div>
+
+
+    <!-- Linking jquery.js with index.html page -->
+    <script src="/jquery.js"></script>
+</body>
+
+
+</html>
