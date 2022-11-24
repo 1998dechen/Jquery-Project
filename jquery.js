@@ -161,11 +161,11 @@ function appendText(){
 // calling a function to insert text before and after.
 $(document).ready(function(){
     $("#but1").click(function(){
-        $("img").before("<b>Badminton <b/>");
+        $("#img").before("<b>Badminton <b/>");
     });
     
     $("#but2").click(function(){
-        $("img").after("<b> is a game that i enjoy playing a lot.</b>");
+        $("#img").after("<b> is a game that i enjoy playing a lot.</b>");
     });
 });
 
